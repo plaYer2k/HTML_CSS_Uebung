@@ -2,18 +2,21 @@
  *   CSS für die Übungsaufgabe    *
  **********************************/
 
+/* Aufgabe 1 */
 html {
 	font-family: sans-serif;
 	color: black;
 	max-width: 65em;
 }
 
+/* Aufgabe 2 */
 aside, article {
 	background-color: lightyellow;
 	border: solid 1px;
 	margin: 1em 1em;
 }
 
+/* Aufgabe 3 */
 #logo {
 	max-width: 10%;
 	max-height: auto;
@@ -27,6 +30,7 @@ body header h1 {
 	text-align: center;
 }
 
+/* Aufgabe 4 */
 body article p img {
 	max-width: 33%;
 	max-height: auto;
@@ -46,6 +50,7 @@ f73 {
 	color: red;
 }
 
+/* Aufgabe 5 */
 #navBar {
 	border-style: solid;
 	border-width: 2px;
@@ -65,6 +70,7 @@ f73 {
 	color: #2a9;
 }
 
+/* Aufgabe 6 */
 body header {
 	border-style: solid;
 	border-width: 5px;
@@ -72,6 +78,7 @@ body header {
 	background-color: #bbb;
 }
 
+/* Aufgabe 7 */
 footer {
 	border-style: solid none none none;
 	border-width: 1px;
@@ -82,3 +89,27 @@ footer a {
 .copyright {
 	text-align: right;
 }
+
+/* Aufgabe 8 */
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+header {
+	order: 1;
+	width: 100%;
+}
+aside {
+	order: 2;
+	width: 18%
+}
+article {
+	order: 3;
+	width: 75%;
+}
+footer {
+	order: 4;
+	width: 100%;
+}
+
+/* Aufgabe 9 */
